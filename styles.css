@@ -88,3 +88,14 @@ input[type="submit"]:hover{
     box-shadow: 0 0 9px 1px white;
     
 }
+
+body::before {
+    content: ''; /* Necesario para que el pseudo-elemento funcione */
+    position: fixed; /* Fijado en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 55, 0.103); /* Capa de color con transparencia */
+    z-index: -1; /* Lo envía al fondo, detrás del contenido */
+  }

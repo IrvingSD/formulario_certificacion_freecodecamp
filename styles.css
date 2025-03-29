@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-image: url(https://pixabay.com/get/g8cf694c66684e9635be12ee0265fedc79dcbb63acd873accb825208008160d00d6343681f8baa0759f426a64d05a773facca64ef39c8ae640096804fdddaae9f_1920.jpg);
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 25px;
 }
 
 h1,p{
@@ -10,6 +14,10 @@ h1,p{
     width: 55vw;
     text-align: center;
     margin: 15px auto;
+}
+
+p{
+    font-size: 18px;
 }
 
 form{
@@ -20,9 +28,63 @@ form{
     border-radius: 15px;
     color: white;
     margin: 10px auto;
+    max-width: 650px;
+    min-width: 300px;
 }
 
-input{
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+fieldset{
+    border: none;
+    padding: 0 1rem 1rem 1rem;
+}
+
+input, textarea, select{
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    margin: 10px 0 8px 0;
+    min-height: 2em;
+    border-radius: 5px;
+    border: none;
+    padding: 1px 8px;
+    box-sizing: border-box;
+    font-size: 16px;
     
 }
 
+legend{
+    font-size: 16px;
+} 
+
+.inline{
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+    margin: 1em auto;
+    min-width: 300px;
+    border: none;
+    transition: all ease 0.2s;
+}
+
+textarea{
+    padding-top: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    scale: 1.1;
+    box-shadow: 0 0 9px 1px white;
+    
+}

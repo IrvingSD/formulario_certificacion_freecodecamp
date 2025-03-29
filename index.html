@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Encuesta Satisfaccion</title>
 </head>
 <body>
+    <h1 id="title">Encuesta de Satisfacción</h1>
+    <p id="description">
+        Esta encuesta nos ayuda a entender las deficiencias y fortalezas de nuestro sistema para mejorar
+        nuestro sercio ¡Ayudanos respondiendola, por favor!
+    </p>
+    <form id="survey-form" action="">
+        <fieldset>
+            <label for="name" id="name-label">Ingresa tu nombre, por favor:<input placeholder="Tu nombre..." type="text" required id="name"></label>
+            <label for="email" id="email-label">Ingresa tu correo electronico:<input placeholder="correo@dominio.com" type="email" id="email" required></label>
+            <label for="number" id="number-label">Ingresa tu edad<input type="number" placeholder="18" id="number" min="18" max="100"></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown">
+                ¿Cómo te definirías?
+                <select name="dropdown" id="dropdown">
+                    <option value="">(selecciona uno)</option>
+                    <option value="1">Introvertido</option>
+                    <option value="2">Extrovertido</option>
+                    <option value="3">Valiente</option>
+                    <option value="4">Temeroso</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona tu genero</legend>
+            <label for="man"><input type="radio" name="gen" id="man" checked value="1">Masculino</label>
+            <label for="girl"><input type="radio" name="gen" id="girl" value="2">Femenino</label>
+        </fieldset>
+        <fieldset>
+            
+            <legend>¿A cuáes personajes identificas?</legend>
+            <label for="Iron"><input type="checkbox" value="1" id="Iron">IronMan</label>
+            <label for="Hulck"><input type="checkbox" value="2" id="Hulck">Hulk</label>
+            <label for="Falcon"><input type="checkbox" value="3" id="Falcon">Falcon</label>
+            <label for="Loki"><input type="checkbox" value="4" id="Loki">Loki</label>
+        </fieldset>
+        <fieldset>
+            <label for="opinion">Cuentanos tu opinion
+                <textarea rows="10" cols="20"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" name="submit" id="submit">
+
+    </form>
     
 </body>
 </html>

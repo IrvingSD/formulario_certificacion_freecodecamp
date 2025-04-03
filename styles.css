@@ -4,8 +4,12 @@ body{
     width: 100%;
     min-height: 100vh;
     margin: 0;
-    background-image: url(https://pixabay.com/get/g8cf694c66684e9635be12ee0265fedc79dcbb63acd873accb825208008160d00d6343681f8baa0759f426a64d05a773facca64ef39c8ae640096804fdddaae9f_1920.jpg);
+    background-color: black;
+    background-image: url(https://pixabay.com/get/gea76236e8eaab360bcad5ef4a6b5fbe359e6b8645890aa2c176fd22e5c1bb84aa5b62ecae933ada85c0dbfe26b815d01.jpg);
     font-family: "Montserrat", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
     padding-bottom: 25px;
 }
 
@@ -96,6 +100,6 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 55, 0.103); /* Capa de color con transparencia */
+    background: rgba(32, 32, 32, 0.5); /* Capa de color con transparencia */
     z-index: -1; /* Lo envía al fondo, detrás del contenido */
   }

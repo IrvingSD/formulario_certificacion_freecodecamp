@@ -4,8 +4,8 @@ body{
     width: 100%;
     min-height: 100vh;
     margin: 0;
-    background-color: black;
-    background-image: url(https://pixabay.com/get/gea76236e8eaab360bcad5ef4a6b5fbe359e6b8645890aa2c176fd22e5c1bb84aa5b62ecae933ada85c0dbfe26b815d01.jpg);
+    /* background-color: black; */
+    background-image: url(https://images.pexels.com/photos/3178786/pexels-photo-3178786.jpeg?cs=srgb&dl=pexels-andrew-3178786.jpg&fm=jpg);
     font-family: "Montserrat", sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
